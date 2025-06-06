@@ -1,0 +1,22 @@
+{
+  "name": "ronin-token-balance-checker",
+  "version": "1.0.0",
+  "description": "Kiểm tra số dư token ERC20 trên mạng Ronin Saigon",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "ethers": "^6.11.1",
+    "dotenv": "^16.4.5",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/readline-sync": "^1.4.8",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+} 
